@@ -739,6 +739,8 @@ def lpf():
     input("Press enter to go back to the script list")
     import main
  main()
+class colors:
+  green = "\033[32m"
 import sys
 math_words = ['add','addend','addition','angle','answer','area','arithmetic','average','axis','billion','binary','calculate','cardinal','carry','circle','circumference','compass','cone','coordinates','cosine','counting','cube','curve','cylinder','decimal','degree','denominator','diameter','difference','divide','division','divisor','dozen','eight','eighteen','eighty','eleven','ellipse','equal','equation','equilateral','even','exponent','expression','factor','factorial','fifteen','fifty','five','focus','formula','forty','four','fourteen','fraction','geometry','graph','greater','greater than','half','hundred','hundredth','hyperbola','hypotenuse','identity','imaginary','inequality','integer','intersection','inverse','irrational','number','isosceles','kilo','less','less than','line','linear','long division','math','mathematician','mathematics','mean','median','million','minus','modular','multiplicand','multiply','nano','negative','nine','nineteen','ninety','null','number','number line','numeral','numerator','numerical','obtuse','octagon','odd','one','operation','orb','ordinal','origin','oval','parabola','parallel','parallelogram','percent','perimeter','perpendicular','pi','plane','plot','plus','point','polygon','polyhedron','polynomial','power','prime number','product','proof','protractor','pyramid','Q.E.D.','quadratic','quadrilateral','quarter','quotient','radian','radius','rational number','ray','real number','rectangle','remainder','rhombus','right angle','rounded','scientific notation','series','set','seven','seventeen','seventy','sine','six','sixteen','sixty','skip counting','slope','solve','sphere','square','square root','subtract','subtrahend','sum','symbol','symmetry','tangent','tententh','thirteen','thirty','thousand','thousand','three','times','torus','trapezoid','triangle','trillion','twelve','twenty','two','union','unit','variable','Venn diagram','vertex','volume','whole number','x-axis','x-coordinate', 'y-axis','y-coordinate','zero']
 import time, sys, random
@@ -758,6 +760,19 @@ time.sleep(.7)
 os.system("clear")
 slowprint('Done! Loading script...')
 os.system("clear")
+print("""
+
+
+░█████╗░██████╗░░█████╗░███████╗███████╗  ██╗░░██╗██╗░░░██╗██████╗░
+██╔══██╗██╔══██╗██╔══██╗╚════██║██╔════╝  ██║░░██║██║░░░██║██╔══██╗
+██║░░╚═╝██████╔╝███████║░░███╔═╝█████╗░░  ███████║██║░░░██║██████╦╝
+██║░░██╗██╔══██╗██╔══██║██╔══╝░░██╔══╝░░  ██╔══██║██║░░░██║██╔══██╗
+╚█████╔╝██║░░██║██║░░██║███████╗███████╗  ██║░░██║╚██████╔╝██████╦╝
+░╚════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚══════╝╚══════╝  ╚═╝░░╚═╝░╚═════╝░╚═════╝░
+
+""")
+print("")
+print(colors.green)
 print("All scripts: ")
 print("")
 s1 = "hypotenuse-calculator"
